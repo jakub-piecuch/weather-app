@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 public class MainData {
     @SerializedName("temp")
-    private String temperature;
+    private double temperature;
     @SerializedName("humidity")
     private double humidity;
 }

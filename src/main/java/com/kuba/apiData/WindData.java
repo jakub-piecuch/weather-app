@@ -14,5 +14,5 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 public class WindData {
     @SerializedName("speed")
-    private String windSpeed;
+    private double windSpeed;
 }

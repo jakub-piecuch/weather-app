@@ -18,4 +18,7 @@ public class WeatherData {
     private String main;
     @SerializedName("description")
     private String description;
+
+
+
 }

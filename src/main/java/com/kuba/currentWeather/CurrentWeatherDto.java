@@ -21,4 +21,5 @@ public class CurrentWeatherDto {
     private List<WeatherData> weatherData;
     private WindData windData;
     private MainData mainData;
+
 }

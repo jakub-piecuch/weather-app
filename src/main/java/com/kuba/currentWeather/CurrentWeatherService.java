@@ -2,6 +2,8 @@ package com.kuba.currentWeather;
 
 import org.springframework.stereotype.Service;
 
+import java.util.Optional;
+
 @Service
 public class CurrentWeatherService {
     private final String API_KEY = "2161be548b4aa191dfaf00aff64d7033";

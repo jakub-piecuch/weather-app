@@ -84,12 +84,12 @@ class CurrentWeatherServiceTest {
         String city = "warsaw";
         CurrentWeather currentWeather = new CurrentWeather(
                 1L,
-                List.of(new WeatherData("clear sky")),
+                List.of(new WeatherData("Clear", "clear sky")),
                 new WindData(3.09),
                 new MainData(7.68, 55.0)
-                );
+        );
         CurrentWeatherDto currentWeatherDto = new CurrentWeatherDto(
-                List.of(new WeatherData("clear sky")),
+                List.of(new WeatherData("Clear", "clear sky")),
                 new WindData(3.09),
                 new MainData(7.68, 55.0)
         );
@@ -101,8 +101,8 @@ class CurrentWeatherServiceTest {
         CurrentWeatherDto expectedCurrentWeather = service.getCurrentWeather(city);
 
         //Assert
-        assertEquals(expectedCurrentWeather.getDescription(), currentWeatherDto.getDescription());
-        assertEquals(expectedCurrentWeather.getWind(), currentWeatherDto.getWind());
         assertEquals(expectedCurrentWeather.getMainData(), currentWeatherDto.getMainData());
+        assertEquals(expectedCurrentWeather.getWeatherData(), currentWeatherDto.getWeatherData());
+        assertEquals(expectedCurrentWeather.getWindData(), currentWeatherDto.getWindData());
     }
 }

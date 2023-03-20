@@ -1,5 +1,5 @@
 # Weather App
-Backend for weather app that consumes open-weather API.
+Backend for weather app that consumes open-weather API data.
 
 
 ## Table of Content

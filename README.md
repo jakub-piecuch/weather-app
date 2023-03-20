@@ -28,4 +28,4 @@ Thats is just the backend side of application that can be tested using tool like
 
 Here's a screenshot of the main view
 
-![Screenshot](https://imgur.com/a/G1q1Gyl)
+![Screenshot](https://imgur.com/a/G1q1Gyl.png)

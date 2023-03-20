@@ -1,6 +1,7 @@
-package com.kuba.model;
+package com.kuba.location;
 
 import com.google.gson.annotations.SerializedName;
+import com.kuba.currentWeather.CurrentWeather;
 import org.springframework.stereotype.Component;
 
 import javax.persistence.*;

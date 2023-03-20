@@ -1,4 +1,4 @@
-# weather-app
+# Weather App
 Backend for weather app that consume open-weather API.
 
 
@@ -7,7 +7,7 @@ Backend for weather app that consume open-weather API.
 - Installation
 - Usage
 
-##Technologies
+## Technologies
 - Java
 - Spring Boot
 - Gson library

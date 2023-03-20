@@ -3,7 +3,7 @@ Backend for weather app that consume open-weather API.
 
 
 ## Table of Content
-- Dependecies
+- Technologies
 - Installation
 - Usage
 

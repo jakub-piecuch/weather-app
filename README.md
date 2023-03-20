@@ -15,7 +15,7 @@ Backend for weather app that consumes open-weather API data.
 - JUnit5 & Mockito
 
 ## Installation
-- Clone the repository: `git clone https://github.com/your-username/weather-app.git`
+- Clone the repository: `git clone https://github.com/jakub-piecuch/weather-app.git`
 - Open the project in your IDE
 - Build the project
 - Run the project

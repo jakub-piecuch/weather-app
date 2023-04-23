@@ -1,10 +1,10 @@
-
-
-FROM openjdk:17-jdk
-
+FROM maven:lts
 COPY src /home/app/src
 COPY pom.xml /home/app
 RUN mvn -f /home/app/pom.xml clean package
+
+
+FROM openjdk:17-jdk
 
 COPY --from=build /home/app/target/weather-app-0.0.1-SNAPSHOT.jar.jar /usr/local/lib/weather-app.jar
 EXPOSE 8080

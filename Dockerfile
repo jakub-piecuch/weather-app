@@ -1,6 +1,6 @@
 FROM openjdk:17-jdk
 
-RUN chmod +x mvnw
+RUN #chmod +x mvnw
 
 COPY target/weather-app-0.0.1-SNAPSHOT.jar weatherapp.jar
 

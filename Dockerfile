@@ -2,9 +2,7 @@ FROM openjdk:17-jdk
 
 RUN chmod +x mvnw
 
-WORKDIR /app
-
-COPY target/weatherapp-1.0.0.jar /app/weatherapp.jar
+COPY target/weatherapp-1.0.0.jar weatherapp.jar
 
 EXPOSE 8080
 

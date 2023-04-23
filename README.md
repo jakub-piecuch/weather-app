@@ -6,6 +6,7 @@ Backend for weather app that consumes open-weather API data.
 - Technologies
 - Installation
 - Usage
+- Links
 
 ## Technologies
 - Java
@@ -22,3 +23,6 @@ Backend for weather app that consumes open-weather API data.
 
 ## Usage
 Thats is just the backend side of application that can be tested using tool like Postman, hitting GET http://localhost8080/v1/current-weather-{param} - param is a city or country where you want to check the weather.
+
+## Links
+- link to the frontend of application https://github.com/jakub-piecuch/weather-app-view

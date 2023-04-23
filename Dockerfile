@@ -4,7 +4,7 @@ RUN chmod +x mvnw
 
 WORKDIR /app
 
-COPY target/weatherapp-1.0.0.jar /app/springdemo.jar
+COPY target/weatherapp-1.0.0.jar /app/weatherapp.jar
 
 EXPOSE 8080
 

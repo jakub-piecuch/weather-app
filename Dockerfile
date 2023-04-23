@@ -6,6 +6,6 @@ RUN mvn -f /home/app/pom.xml clean package
 
 FROM openjdk:17-jdk
 
-COPY --from=build /home/app/target/weather-app-0.0.1-SNAPSHOT.jar.jar /usr/local/lib/weather-app.jar
+COPY --from=build /home/app/target/weather-app-0.0.1-SNAPSHOT.jar /usr/local/lib/weather-app.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "weather-app.jar"]

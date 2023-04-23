@@ -26,9 +26,6 @@ jobs:
         run: |
           mvn clean
           mvn -B package --file pom.xml
-      -
-        name: Set up QEMU
-        uses: docker/setup-qemu-action@v2
 
       - name: Build Docker Image
         uses: docker/build-push-action@v4

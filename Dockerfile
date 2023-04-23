@@ -1,6 +1,8 @@
 FROM openjdk:17-jdk
 
-COPY target/weather-app-0.0.1-SNAPSHOT.jar weatherapp.jar
+WORKDIR /app
+
+COPY target/weather-app-0.0.1-SNAPSHOT.jar /app/weatherapp.jar
 
 EXPOSE 8090
 
